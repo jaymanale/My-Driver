@@ -12,7 +12,7 @@ function Testimonials() {
           </div>
           <div className="row g-2 my-5">
             <div className="col-md-4">
-              <div className="card p-3 text-center px-4 p-5">
+              <div className="card p-3 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
                 <div className="user-image">
                   <img
                     src="https://lh3.googleusercontent.com/a-/AD_cMMSpva2rBKiuKv1HmbrqTdaOFxFDZYLuROYcE_Ws=s40-c-c0x00000000-cc-rp-mo-br100"
@@ -23,7 +23,7 @@ function Testimonials() {
                 </div>
 
                 <div className="user-content">
-                  <h5 className="mb-0">Onkar Kulkarni</h5>
+                  <h5 className="my-3">Onkar Kulkarni ✅</h5>
 
                   <p>
                     Very much happy and satisfied with the service provided!!!!
@@ -31,18 +31,18 @@ function Testimonials() {
                   </p>
                 </div>
 
-                <div className="ratings">
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
+                <div className="my-1 fw-bold">
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
                 </div>
               </div>
             </div>
 
             <div className="col-md-4">
-              <div className="card p-3 text-center px-4 p-5">
+              <div className="card p-3 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
                 <div className="user-image">
                   <img
                     src="https://lh3.googleusercontent.com/a-/AD_cMMTpDEoEwJ4ErwHTfcrapeSwPW1Xz7CU_6EfEWgzcA=s40-c-c0x00000000-cc-rp-mo-br100"
@@ -53,7 +53,7 @@ function Testimonials() {
                 </div>
 
                 <div className="user-content">
-                  <h5 className="mb-0">Naresh Kumar</h5>
+                  <h5 className="my-3">Naresh Kumar ✅</h5>
 
                   <p>
                     One of the best service, very punctual wrt to time.
@@ -61,18 +61,18 @@ function Testimonials() {
                   </p>
                 </div>
 
-                <div className="ratings">
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
+                <div className="my-1 fw-bold">
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
                 </div>
               </div>
             </div>
 
             <div className="col-md-4">
-              <div className="card p-3 text-center px-4 p-5">
+              <div className="card p-3 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
                 <div className="user-image">
                   <img
                     src="https://lh3.googleusercontent.com/a-/AD_cMMRbWRQQWPNt1GlqNp6IOTaLofyArVZwzZukmPuF3bA=s40-c-c0x00000000-cc-rp-mo-br100"
@@ -83,7 +83,7 @@ function Testimonials() {
                 </div>
 
                 <div className="user-content">
-                  <h5 className="mb-0">Mayur Panchal</h5>
+                  <h5 className="my-3">Mayur Panchal ✅</h5>
 
                   <p>
                     professional and punctual, meeting all my expectations. I
@@ -91,11 +91,11 @@ function Testimonials() {
                   </p>
                 </div>
 
-                <div className="ratings">
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
-                  <span>⭐</span>
+                <div className="my-1 fw-bold">
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
+                  <span className="h3">⭐</span>
                 </div>
               </div>
             </div>
