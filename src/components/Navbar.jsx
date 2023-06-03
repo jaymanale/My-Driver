@@ -31,6 +31,21 @@ const Navbar = () => {
                   Services
                 </Link>
               </li>
+              <li className="nav-item d-none d-lg-block">
+                <Link className="nav-link fw-semibold" to="/book">
+                  Book Now
+                </Link>
+              </li>
+              <li className="nav-item d-none d-lg-block">
+                <Link className="nav-link fw-semibold" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item d-none d-lg-block">
+                <Link className="nav-link fw-semibold" to="/contact">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
