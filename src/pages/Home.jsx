@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import PlanTrip from "../components/PlanTrip";
 import Testimonials from "../components/Testimonials";
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <PlanTrip />
       <Testimonials />
+      <Footer />
     </>
   );
 };
