@@ -16,7 +16,13 @@ const PlanTrip = () => {
           </div>
           <div className="row my-5">
             <div className="col-sm-12 col-md-4 col-lg-4 my-5 text-center">
-              <img className="imageSize" src={CarSelect} alt="select car" />
+              <object
+                data={CarSelect}
+                className="imageSize"
+                alt="select car image"
+                type="image/svg+xml"
+              ></object>
+
               <h3 className="textGradient mt-1">Select Car</h3>
               <p>
                 We offers a big range of vehicles for all your driving needs. We
@@ -24,11 +30,13 @@ const PlanTrip = () => {
               </p>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 my-5 text-center">
-              <img
+              <object
+                data={ContactOperator}
                 className="imageSize"
-                src={ContactOperator}
-                alt="select car"
-              />
+                alt="contact operator image"
+                type="image/svg+xml"
+              ></object>
+
               <h3 className="textGradient mt-1">Contact Operator</h3>
               <p>
                 Our knowledgeable and friendly operators are always ready to
@@ -36,7 +44,13 @@ const PlanTrip = () => {
               </p>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 my-5 text-center">
-              <img className="imageSize" src={LetsDrive} alt="select car" />
+              <object
+                data={LetsDrive}
+                className="imageSize"
+                alt="let's drive image"
+                type="image/svg+xml"
+              ></object>
+
               <h3 className="textGradient mt-1">Let's Drive</h3>
               <p>
                 Whether you're hitting the open road, we've got you covered with
