@@ -30,3 +30,19 @@
     #f59e0b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.blackBackground {
+  background: #1e2136; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1e2136,
+    #1e2136,
+    #1e2136
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e2136,
+    #1e2136,
+    #1e2136
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

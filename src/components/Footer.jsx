@@ -2,12 +2,15 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container">
+        <div className="container-fluid blackBackground text-white text-center">
           <div className="row">
             <div className="col-sm-12 col-md-3 col-lg-3 my-5">
-              <h4>
-                <span className="textGradient">Driver for rent</span> 🚗
-              </h4>
+              <h3>
+                <span className="textGradient text-uppercase">
+                  Driver for rent
+                </span>{" "}
+                🚗
+              </h3>
 
               <ul className="list-unstyled">
                 <li>
@@ -17,18 +20,21 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-sm-12 col-md-3 col-lg-3 my-5">
-              <h4>
-                <span className="textGradient">Cities</span> 🏬
-              </h4>
+              <h3>
+                <span className="textGradient text-uppercase">Cities</span> 🏬
+              </h3>
 
               <ul className="list-unstyled">
                 <li className="fw-medium">Pune</li>
               </ul>
             </div>
             <div className="col-sm-12 col-md-3 col-lg-3 my-5">
-              <h4>
-                <span className="textGradient">Working Hours</span> ⌚
-              </h4>
+              <h3>
+                <span className="textGradient text-uppercase">
+                  Working Hours
+                </span>{" "}
+                ⌚
+              </h3>
 
               <ul className="list-unstyled">
                 <li className="fw-medium">Mon - Fri: 9:00AM - 9:00PM</li>
@@ -37,9 +43,12 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-sm-12 col-md-3 col-lg-3 my-5">
-              <h4>
-                <span className="textGradient">Company Info</span> ℹ️
-              </h4>
+              <h3>
+                <span className="textGradient text-uppercase">
+                  Company Info
+                </span>{" "}
+                ℹ️
+              </h3>
               <ul className="list-unstyled">
                 <li>
                   <p className="fw-medium">
