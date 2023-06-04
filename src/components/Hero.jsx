@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Header from "./../images/hero.svg";
+import HeroCar from "./../images/hero.svg";
 
 const Hero = () => {
   return (
@@ -29,7 +29,12 @@ const Hero = () => {
               </div>
             </div>
             <div className="col-xm-12 col-sm-6 col-lg-6 my-auto">
-              <img src={Header} alt="car-img" className="img-fluid" />
+              <object
+                data={HeroCar}
+                className="card-img-top"
+                alt="Car image"
+                type="image/svg+xml"
+              ></object>
             </div>
           </div>
         </div>
