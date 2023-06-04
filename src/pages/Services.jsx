@@ -17,11 +17,13 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
-              <img
-                src={LocalDrive}
+              <object
+                data={LocalDrive}
                 className="card-img-top"
-                alt="local Drive"
-              />
+                alt="local/ city Drive image"
+                type="image/svg+xml"
+              ></object>
+
               <div className="card-body">
                 <h3 className="card-title textGradient">
                   Local - Within City (Pune)
@@ -48,11 +50,13 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
-              <img
-                src={SameDayReturn}
+              <object
+                data={SameDayReturn}
                 className="card-img-top"
-                alt="local Drive"
-              />
+                alt="Outstation - same day return image"
+                type="image/svg+xml"
+              ></object>
+
               <div className="card-body">
                 <h3 className="card-title textGradient">
                   Outstation - Same day Return
@@ -84,11 +88,13 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5  text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
-              <img
-                src={MultipleDayStay}
+              <object
+                data={MultipleDayStay}
                 className="card-img-top"
-                alt="local Drive"
-              />
+                alt="Outstation - Multiple Days /Halt image"
+                type="image/svg+xml"
+              ></object>
+
               <div className="card-body">
                 <h3 className="card-title textGradient">
                   Outstation - Multiple Days /Halt
@@ -116,11 +122,13 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
-              <img
-                src={DropAndPickup}
+              <object
+                data={DropAndPickup}
                 className="card-img-top"
-                alt="local Drive"
-              />
+                alt=" Outstation - Pickup & Drop image"
+                type="image/svg+xml"
+              ></object>
+
               <div className="card-body">
                 <h3 className="card-title textGradient">
                   Outstation - Pickup & Drop
@@ -146,7 +154,13 @@ const Services = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
-              <img src={RentCar} className="card-img-top" alt="local Drive" />
+              <object
+                data={RentCar}
+                className="card-img-top"
+                alt=" Rent a Car image"
+                type="image/svg+xml"
+              ></object>
+
               <div className="card-body">
                 <h3 className="card-title textGradient">Rent a Car</h3>
                 <p className="card-text">
