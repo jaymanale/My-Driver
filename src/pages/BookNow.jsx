@@ -9,9 +9,10 @@ const BookNow = () => {
           <span className="textGradient">Book now </span>✅
         </h1>
         <iframe
+          className="display-fluid embed-responsive-item "
           src="https://docs.google.com/forms/d/e/1FAIpQLSe09rKblSIiML__Cam34xUpq4ZlP4OXudl7ce5dqNRRpsnWjA/viewform?embedded=true"
-          width="640"
-          height="800"
+          height={1000}
+          width="100%"
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
