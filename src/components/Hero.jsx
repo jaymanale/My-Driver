@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <>
       <section id="home" className="hero-section">
-        <div className="container">
+        <div className="container text-center my-5">
           <div className="row">
             <div className="col-xm-12 col-sm-6 col-lg-6 my-auto">
               <div className="hero-content__text">
@@ -21,14 +21,14 @@ const Hero = () => {
 
                 <Link
                   type="button"
-                  className=" fw-semibold btn btn-warning"
+                  className=" fw-semibold btn btn-warning px-5 my-1"
                   to="/book"
                 >
                   Book Now
                 </Link>
               </div>
             </div>
-            <div className="col-xm-12 col-sm-6 col-lg-6">
+            <div className="col-xm-12 col-sm-6 col-lg-6 my-auto">
               <img src={Header} alt="car-img" className="img-fluid" />
             </div>
           </div>
