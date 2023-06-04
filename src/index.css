@@ -53,3 +53,14 @@
   object-fit: cover;
   text-align: center;
 }
+
+.googleMap {
+  height: 60vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.socialIcon {
+  width: 64px;
+  height: 64px;
+}
