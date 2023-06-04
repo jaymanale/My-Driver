@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary backgroundGradient">
       <div className="container-fluid">
         <Link className="navbar-brand fw-bold fs-3 text-white " to="/">
-          Driver For Rent
+          Driver Call's
         </Link>
         <button
           className="navbar-toggler bg-white"
