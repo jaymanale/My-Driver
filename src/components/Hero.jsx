@@ -6,9 +6,9 @@ const Hero = () => {
     <>
       <section id="home" className="hero-section">
         <div className="container text-center my-5">
-          <div className="row">
+          <div className="row mt-5">
             <div className="col-xm-12 col-sm-6 col-lg-6 my-auto">
-              <div className="hero-content__text">
+              <div className="mt-5">
                 <h4 className="fw-semibold">Plan your trip now</h4>
                 <h1 className="display-3 fw-bold">
                   Save <span className="textGradient">big</span> with our
@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="col-xm-12 col-sm-6 col-lg-6 my-auto">
               <object
                 data={HeroCar}
-                className="card-img-top"
+                className="card-img-top mt-5"
                 alt="Car image"
                 type="image/svg+xml"
               ></object>

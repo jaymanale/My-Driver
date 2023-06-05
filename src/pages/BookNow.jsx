@@ -5,8 +5,8 @@ const BookNow = () => {
   return (
     <>
       <section className="container text-center my-5">
-        <h1 className=" display-3  my-3">
-          <span className="textGradient">Book now </span>✅
+        <h1 className=" my-5 pt-5 ">
+          <span className="textGradient fw-bold display-3 ">Book now </span>✅
         </h1>
         <iframe
           className="display-fluid embed-responsive-item "
