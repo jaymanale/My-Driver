@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary backgroundGradient">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary backgroundGradient fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand fw-bold fs-3 text-white " to="/">
           Driver Call's

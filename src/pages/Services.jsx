@@ -11,10 +11,10 @@ const Services = () => {
   return (
     <>
       <section className="container my-5">
-        <h1 className="text-center display-4  fw-bold textGradient">
-          Our Services
-        </h1>
         <div className="row">
+          <h1 className="text-center display-3  fw-bold textGradient mt-5">
+            Our Services
+          </h1>
           <div className="col-sm-12 col-md-6 col-lg-6 offset-md-3 offset-lg-3">
             <div className="card p-5 text-center px-4 p-5 shadow p-3 mb-5 bg-white rounded">
               <object

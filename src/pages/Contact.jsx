@@ -8,8 +8,8 @@ import Youtube from "./../images/social/Youtube.svg";
 const Contact = () => {
   return (
     <>
-      <div className="container-fluid">
-        <h1 className="textGradient text-center">contact us</h1>
+      <div className="container-fluid my-5">
+        <h1 className="textGradient text-center pt-5">contact us</h1>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.5928652110215!2d73.82279012579768!3d18.59238513251512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b8bc3c339e93%3A0x6d64982e28f8f597!2sDevkar%20Park%2C%20Agrasen%20Nagar%20Society%2C%20Pimple%20Gurav%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411061!5e0!3m2!1sen!2sin!4v1685890264440!5m2!1sen!2sin"
           className="googleMap my-3"

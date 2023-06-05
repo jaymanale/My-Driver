@@ -3,7 +3,7 @@ const AboutUs = () => {
     <section>
       <div className="container my-5">
         <article>
-          <h2>
+          <h2 className="pt-5">
             <span className="textGradient">About Us</span> 😎
           </h2>
           <p>
