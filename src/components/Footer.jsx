@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-3 col-lg-3 my-5">
               <h3>
                 <span className="textGradient text-uppercase">
-                  Driver for rent
+                  Driver call's
                 </span>{" "}
                 🚗
               </h3>
